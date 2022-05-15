@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import HelloWorld from './components/HelloWorld';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <p>Olá, {newName}</p>
      <p>soma: {sun(1,4)}</p>
      <img src={url} alt="Goolge"/>
+     <HelloWorld />
     </div>
   );
 }
